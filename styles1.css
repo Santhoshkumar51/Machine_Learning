@@ -1,0 +1,89 @@
+/* ============================
+   Page Background – Deep Teal Night
+   ============================ */
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #020617 0%,     /* near-black */
+        #032e3b 45%,    /* deep teal */
+        #0a2540 100%    /* blue-black */
+    );
+    min-height: 100vh;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* ============================
+   Card Styling – Glass Elevation
+   ============================ */
+.card {
+    background: linear-gradient(
+        135deg,
+        rgba(15, 42, 56, 0.95),
+        rgba(23, 58, 74, 0.95)
+    );
+    border-radius: 18px;
+    padding: 22px;
+    margin-bottom: 26px;
+
+    border: 1px solid rgba(148, 197, 212, 0.18);
+    box-shadow:
+        0 14px 34px rgba(2, 6, 23, 0.75),
+        inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+/* ============================
+   Headings
+   ============================ */
+h1, h2, h3 {
+    color: #e6f1f5;
+    font-weight: 600;
+}
+
+/* ============================
+   Metric Containers
+   ============================ */
+div[data-testid="metric-container"] {
+    background: linear-gradient(
+        135deg,
+        #0f3a4a,
+        #155e75
+    );
+    border-radius: 16px;
+    padding: 16px;
+
+    border: 1px solid rgba(186, 230, 253, 0.22);
+    box-shadow: 0 8px 20px rgba(2, 6, 23, 0.55);
+}
+
+/* Metric Text */
+div[data-testid="metric-container"] label {
+    color: #bfe7f3;
+    font-size: 0.9rem;
+}
+
+div[data-testid="metric-container"] div {
+    color: #eaf8fc;
+    font-weight: 600;
+}
+
+/* ============================
+   Prediction Box – Focus Accent
+   ============================ */
+.prediction-box {
+    background: linear-gradient(
+        135deg,
+        #0ea5e9,
+        #0284c7
+    );
+    border-radius: 14px;
+    padding: 22px;
+    margin-top: 18px;
+
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f0f9ff;
+
+    box-shadow:
+        0 10px 28px rgba(14, 165, 233, 0.45);
+}
