@@ -1,0 +1,91 @@
+.stApp {
+    background-image: linear-gradient(to bottom right, #60f0df,#beeec5, #e2e8f0);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card container */
+.card {
+    background-color: #3c5560;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 22px;
+    margin-bottom: 20px;
+    color: #f8fafc;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #1e3a8a;
+    font-weight: 700;
+}
+
+/* Headings inside cards */
+.card h1,
+.card h2,
+.card h3{
+    color: #f8fafc;
+}
+.card p {
+    color: #eac1e6;
+    line-height: 1.6;
+}
+
+/* Button container */
+div[data-testid="stButton"] {
+    text-align: center;
+}
+
+/* Button itself */
+div[data-testid="stButton"] > button {
+    background-color: #2563eb;      /* blue */
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px 28px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+div[data-testid="stButton"] > button:hover {
+    background-color: #1e40af;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+/* Click (active) effect */
+div[data-testid="stButton"] > button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+/* Prediction highlight box */
+.prediction-box {
+    background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+    border: 2px solid #3b82f6;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1e40af;
+    margin-top: 15px;
+}
+div[data-testid="stNumberInput"]{
+    margin-bottom: 20px;
+}
+div[data-testid="stNumberInput"] > label {
+    font-weight: 600;
+    color: #1e3a8a;
+}
+div[data-testid="stNumberInput"] input {
+    background-color: #ad8ef1;
+    border: 2px solid #3b82f6;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-size: 1.1rem;
+    transition: all 0.25s ease;
+}
